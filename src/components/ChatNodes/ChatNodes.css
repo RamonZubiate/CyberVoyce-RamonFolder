@@ -1,0 +1,134 @@
+.chatNodes-mainContainer{
+    /* border: 1px dotted white; */
+    border-right: 3px solid #424242;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatNodes-textNodesContainer{
+    /* border: 1px dotted yellow; */
+    margin-left: 10px;
+    max-width: 100%;
+    color: white;
+  }
+  
+  .chatNodes-textNodesContainer > h3{
+    margin: 0;
+    margin-top: 10px;
+    color: grey;
+  }
+  
+  .chatNodes-voiceNodesContainer{
+    /* border: 1px dotted yellow; */
+    margin-left: 10px;
+    max-width: 100%;
+    color: white;
+  }
+  
+  .chatNodes-voiceNodesContainer > h3{
+    margin: 0;
+    margin-top: 10px;
+    color: grey;
+  }
+  
+  .chatNodes-textNode{
+    /* border: 1px dotted orangered; */
+    cursor: pointer;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .chatNodes-textNode:hover{
+    background-color: #222222;
+  }
+  
+  .chatNodes-textNode > p{
+    margin: 0;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: grey;
+    position: relative; /*RAMON WORK */
+    right: 25px; /*RAMON WORK */
+  }
+  
+  .chatNodes-voiceNode{
+    /* border: 1px dotted orangered; */
+    cursor: pointer;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .chatNodes-voiceNode:hover{
+    background-color: #222222;
+  }
+  
+  .chatNodes-voiceNode > p{
+    margin: 0;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: grey;
+    position: relative; /*RAMON WORK */
+    right: 25px; /*RAMON WORK */
+  }
+  
+  .chatNodes-profileContainer{
+    /* border: 1px dotted blue; */
+    width: 100%;
+    /* height: fit-content; */
+    height: 70px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222222;
+  }
+  
+  .chatNodes-profileSettings{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .chatNodes-profileInfo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .chatNodes-profileName{
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .chatNodes-profileName > h3{
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  .chatNodes-profileName > span{
+    color: grey;
+    margin: 0;
+  }
+  
+  .chatNodes-profileInfo > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  

@@ -1,0 +1,10 @@
+/* Home page */
+.Home{
+    /* border: 1px dotted white; */
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

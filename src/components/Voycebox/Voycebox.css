@@ -1,0 +1,93 @@
+.voycebox{
+    width: 90%;
+    height: 200px;
+    background-color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 7px 20px 1px #d747fc;
+    margin-bottom: 20px;
+    border: 1px solid #2C3539;
+  }
+  
+  .voycebox > form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .voycebox-input{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .voycebox-input > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 120px;
+    margin-right: 15px;
+  }
+  
+  .voycebox-input > input{
+    font-size: 18px;
+    width: 600px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #222222;
+    color: white;
+  }
+  
+  .voycebox-btns{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .voyceboxOption-container{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #222222;
+    color: white;
+    margin-right: 20px;
+    transition: color 100ms;
+    transition: background-color 100ms;
+  }
+  
+  .voyceboxOption-container:hover{
+    background-color: lightgray;
+    color: #7d0efe;
+  }
+  
+  .voyceboxOption-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .voycebox-postbtn{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #d747fc 1.18%, #7d0efe 100%);
+    border: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Calibri';
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+  }

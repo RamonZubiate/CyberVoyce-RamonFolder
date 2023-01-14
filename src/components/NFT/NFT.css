@@ -1,0 +1,55 @@
+.NFT-mainContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    /* border: 1px dotted white; */
+    cursor: pointer;
+  }
+  
+  .NFT-overlay{
+    position: absolute;
+    bottom: 0;
+    background: #222222;
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 1px solid #222222;
+    transition: opacity 120ms;
+  }
+  
+  .NFT-mainContainer:hover .NFT-overlay {
+    opacity: 0;
+  }
+  
+  .NFT-mainContainer > img{
+    display: block;
+    width: 100%;
+    max-height: 250px;
+    border-radius: 20px;
+  }
+  
+  .NFT-creator{
+    color: grey;
+    font-size: 17px;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .NFT-price{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+  }
+  
+  

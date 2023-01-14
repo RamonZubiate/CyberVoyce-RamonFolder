@@ -1,0 +1,257 @@
+.createNFTModal, .createNFTModal-overlay{
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  /* filter: blur(10px); */
+  /* background-color: white; */
+}
+
+.createNFTModal-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #222222;
+  border-radius: 20px;
+  width: 900px;
+  height: 500px;
+  display: block;
+  box-shadow: 10px 10px 30px -15px black;
+}
+
+.createNFTModal-content{
+  /* border: 1px dotted white; */
+  width: 100%;
+  /* height: fit-content; */
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.createNFTModal-NFTContainer{
+  /* border: 1px dotted orangered; */
+  height: 100%;
+  width: 300px;
+  display: block;
+}
+
+.createNFTModal-NFT{
+  /* border: 1px dotted white; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 30px;
+  width: 210px;
+  height: fit-content;
+}
+
+.createNFTModal-NFT > img{
+  width: 100%;
+  height: 220px;
+  border-radius: 30px;
+}
+
+.createNFTModal-NFTName{
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background-color: inherit;
+  color: white;
+}
+
+.createNFTModal-NFTInput{
+  /* border: 1px dotted cyan; */
+  width: 75%;
+  height: 100%;
+  display: block;
+}
+
+.createNFTModal-NFTInputContainer{
+  /* border: 1px dotted tomato; */
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+}
+
+.createNFTModal-NFTDescription{
+  border: none;
+  outline: none;
+  resize: none;
+  width: 99%;
+  height: 100px;
+  font-size: 18px;
+  font-family: 'Calibri';
+  background-color: inherit;
+  color: white;
+  border-bottom: 1px solid #424242;
+}
+
+.createNFTModal-NFTRarity{
+  /* border: 1px dotted blue; */
+  width: 99%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #424242;
+}
+
+.createNFTModal-NFTRarity > p{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.createNFTModal-NFTRarityCount{
+  /* border: 1px dotted greenyellow; */
+  width: 140px;
+  height: 100%;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.createNFTModal-NFTRarityCountInput{
+  width: 30px;
+  height: 20px;
+  outline: none;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #d747fc;
+  border-radius: 10px;
+  background-color: inherit;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.createNFTModal-NFTRarityCount > p{
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.createNFTModal-NFTLoot{
+  width: 99%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #424242;
+}
+
+.createNFTModal-NFTLoot > p{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.createNFTModal-NFTLootInput{
+  width: 130px;
+  height: 20px;
+  margin-right: 70px;
+  outline: none;
+  border: none;
+  border: 1px solid #d747fc;
+  border-radius: 10px;
+  background-color: inherit;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10px;
+}
+
+.createNFTModal-NFTSell{
+  width: 99%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #424242;
+}
+
+.createNFTModal-NFTSellBtn{
+  text-align: center;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 130px;
+  height: 50px;
+  border: 1px solid #424242;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.createNFTModal-NFTSellBtn:hover{
+  border: 1px solid #5a0aca;
+}
+
+.createNFTModal-NFTSellBtn > p{
+  margin: 0;
+  margin-bottom: -6px;
+  margin-top: 5px;
+}
+
+.createNFTModal-NFTSellBtn > span{
+  color: #424242;
+  font-size: 12px;
+}
+
+.createNFTModal-NFTPrice{
+  width: 99%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.createNFTModal-NFTPrice > p{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.createNFTModal-NFTPriceInput{
+  width: 80px;
+  height: 20px;
+  margin-right: 70px;
+  outline: none;
+  border: none;
+  border: 1px solid #d747fc;
+  border-radius: 10px;
+  background-color: inherit;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 7px;
+}
+
+.createNFTModal-sellBtn{
+  /* border: 1px dotted lavender; */
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+.createNFTModal-sellBtn > button{
+  cursor: pointer;
+  width: 95px;
+  height: 38px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Calibri';
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #d747fc 1.18%, #7d0efe 100%);
+}
+

@@ -1,0 +1,310 @@
+body{
+  /* background: #191919; */
+  background: rgba(25,25,25,255);
+  margin: 0;
+  font-family: 'Calibri';
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+/* Light mode */
+#light {
+  background-color: white;
+}
+
+#light a, #light p, #light h3, #light h4, #light h1, #light h2 {
+color: #191919;
+}
+
+#light input {
+background-color: inherit;
+color: #191919;
+}
+
+#light .voyceboxOption-container h4{
+color: #191919;;
+}
+
+#light .voyceboxOption-container{
+
+display: flex;
+align-items: center;
+border-radius: 20px;
+justify-content: center;
+background-color: white;
+margin-right: 20px;
+transition: color 100ms;
+transition: background-color 100ms;
+}
+
+#light .voyceboxOption-container:hover, #light .option-btn:hover, #light .directMessage-container:hover, #light .post:hover, #light .profile-pagesBtn:hover{
+background-color: #b375e9;
+}
+
+#light .feed-header{
+background-color: white;
+}
+
+#light .social-searchBox, #light .social-messagesContainer{
+background-color: white;
+}
+
+#light .story-mainContainer:hover{
+box-shadow: 3px 3px 3px 3px #d747fc;
+overflow: hidden;
+transition: .2s;
+}
+
+#light .RegisterSlider{
+background-color: lightgray;
+}
+
+#light .NFT-overlay{
+  position: absolute;
+  bottom: 0;
+  background: white;
+  color: #f1f1f1;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0px 0px 20px 20px;
+  border-top: 1px solid #222222;
+  transition: opacity 120ms;
+}
+
+#light .CoinCard-mainContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 120px;
+  border-radius: 20px;
+ 
+  background-color: rgb(233, 227, 227);
+}
+
+svg {
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#light svg{
+  color: #121212;
+}
+
+#light .wallet-transactionBtns > button{
+  color: #191919;
+  height: 40px;
+  background-color:white;
+  border: 1px solid #6B03FF;
+  font-family: 'Calibri';
+  font-size: 25px;
+  padding: 5px 50px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+#light .postModal-NFTBtn{
+  background-color: white;
+  border: 1px solid #3B444B;
+  border-radius: 20px;
+  color: #191919;
+  font-size: 15px;
+  padding: 0;
+  padding: 8px 25px 3px;
+  cursor: pointer;
+}
+
+#light .SingleDM-userNameContainer{
+  color: #191919;
+  height: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#light .DMList-searchBox{ 
+  background-color: lightgrey; 
+}
+
+#light .advancedChat-inputContainer{
+  background-color: lightgray;
+}
+
+#light .DMList-searchBox > input{
+  background-color: inherit; 
+}
+
+#light .message-mainContainer:hover {
+  background-color: #b375e9 ;
+}
+
+#light .chat-inputContainer{
+  position: sticky;
+  top: 100%;
+  z-index: 100;
+  display: block;
+  background-color: lightgray;
+  width: 90%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#light .chat-inputContainer > input, #light .advancedChat-input > input{
+  background-color: lightgray; /*change this to light gray so the message input container will be correct */
+}
+
+#light .chatNodes-textNode:hover, #light .chatNodes-voiceNode:hover{
+  background-color: #b375e9 ;
+}
+
+#light .market-searchBox{
+  background-color: lightgray;
+}
+
+#light .messageIcon-container{
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto 8px;
+  cursor: pointer;
+}
+
+#light .messageIcon-container img{
+  position: relative;;
+  margin-left: 23px;
+  margin-top: 25px;
+}
+ 
+#light .plusIcon-container{
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto 8px;
+  cursor: pointer;
+}
+
+#light .plusIcon-container img{
+  position: relative;;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+ 
+#light .searchIcon-container{
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto 8px;
+  cursor: pointer;
+}
+
+#light .searchIcon-container img{
+  position: relative;;
+  margin-left: 23px;
+  margin-top: 24px;
+}
+
+#light .settings-searchBox{
+  background-color: lightgray;
+}
+
+#light button {
+  background-color: lightgray;
+}
+
+#light .settings-pagesBtn:hover{
+  background-color: #b375e9;
+}
+
+/* Swap Modal */
+
+
+/* Send Modal */
+
+
+
+/* Navbar */
+
+
+
+/* Post Modal */
+
+
+
+
+/* Creat NFT Modal */
+
+
+/* Short Navbar */
+
+
+
+/* Feed */
+
+
+/* Posts */
+
+
+/* Voyce box */
+
+
+
+/* Social Nav */
+
+
+
+/* Profile */
+
+/* Coin Card */
+
+
+/* Cybermarket page */
+
+
+
+
+/* NFT */
+
+
+/* Direct Message Page */
+
+
+/* Single DM */
+
+
+/* Advanced chat */
+
+/* Simple chat */
+
+ 
+
+/* Chat Log */
+
+
+
+/* Message */
+
+
+
+/* Chat nodes */

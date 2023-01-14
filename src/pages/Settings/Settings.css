@@ -1,0 +1,397 @@
+.settings-container{
+    flex: 0.5;
+    border-right: 3px solid grey;
+    min-width: fit-content;
+    overflow-y: scroll;
+    margin: 0;
+  }
+  
+  
+  /* hides scrollbar for Chrome, Safari, and Opera */
+  .settings-container::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* hides scrollbar for IE, Edge, Firefox*/
+  .settings-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  
+  
+  .settings-searchBox{
+    display: flex;
+    align-items: center;
+    border: 1px dotted white;
+    background-color: #222222;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid #2C3539;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .settings-searchBox > input{
+    border: none;
+    outline: none;
+    width: 600px;
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .settings-pages{
+    width: 100%;
+    height:850px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    transition: background-color 100ms;
+    cursor: pointer;
+  }
+  .settings-title{
+    color: white;
+    margin-left: 50px;
+  }
+  .settings-pagesBtn{
+    /* border: 1px dotted white; */
+    text-align: center;
+    color: grey;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid gray;
+    color: white;
+  }
+  .settings-pagesBtn > h3{
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .settings-pagesBtn:hover{
+    background-color: #222222;
+    color:#d747fc;
+  }
+  .settings-content{
+    width: 800px;
+    height: 100%;
+    color: white;
+    border-right: 2px solid gray;
+  }
+  .your-account-description{
+    margin-left: 5px;
+  }
+  .settings-content-tabs{
+    cursor: pointer;
+    margin-left: 20px;
+    
+  }
+  .settings-content-tabs:hover{
+    color:#d747fc;
+  }
+  .account-user-phone-email{
+    border-bottom: 1px solid gray;
+  }
+  .account-user-phone-email > h3  {
+    margin-left: 10px
+  }
+  .account-user-phone-email > h5 {
+    margin-left: 10px;
+    color:gray;
+    margin-top: -20px;
+  }
+  .account-setting-change-button{
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+    border-color:#6f04ff;
+    /* If you remove this it will be black so you will not which one you selected  */
+    outline-color: #6f04ff;
+    background-color: #222222;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .country-language-gender-birthdate > h3 {
+    margin-left: 10px;
+  }
+  .country-language-gender-birthdate > h5 {
+    margin-left: 10px;
+    color: gray;
+    margin-top: -20px;
+  }
+  
+  
+  .change-password{
+    border-bottom:  1px solid gray;
+    height: 203px;
+  }
+  .account-setting-change-password{
+    display: block;
+    background-color: #222222;
+    height: 25px;
+    width: 700px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color:#6f04ff;
+    /* If you remove this it will be black so you will not which one you selected  */
+    outline-color: #6f04ff;
+    color: white;
+  }
+  
+  
+  .account-setting-save-password{
+    float: right;
+    margin-right: 70px;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right, magenta,purple);
+    outline:none;
+    
+  }
+  .purchase-history-table{
+    width: 50px
+  }
+  
+  
+  .display-media-content-you-see{
+    border-bottom: 1px solid gray;
+  }
+  
+  .media-content-you-see{
+    margin-left: 20px;
+  }
+  .display-media-disable-btn{
+    float: right;
+    margin-right: 70px;
+    margin-top: -45px;
+    border-radius: 20px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: #222222;
+    outline:1px solid #7d0efe;
+    color:gray;
+  }
+  
+  .display-media-mute-and-block{
+    border-bottom: 1px solid gray;
+  }
+  
+  .media-mute-and-block{
+    margin-left: 20px;
+  }
+  
+  .display-media-mute-and-block-btn{
+    float: right;
+    background-color: #222222;
+    height: 20px;
+    width: 150px;
+    margin-right:40px;
+    margin-top: -45px;
+    border-radius: 20px;
+    border-color:#6f04ff;
+    /* If you remove this it will be black so you will not which one you selected  */
+    outline-color: #6f04ff;
+    color:white;
+  }
+  
+  .display-media-your-voyce{
+    border-bottom: 1px solid gray;
+  }
+  
+  .your-voyce{
+    margin-left: 20px;
+  }
+  
+  .display-media-privacy-and-saftey-btn{
+    float: right;
+    margin-right: 70px;
+    margin-top: -45px;
+    border-radius: 20px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: #222222;
+    outline:1px solid #7d0efe;
+    color:gray;
+  }
+  
+  .display-media-direct-messages{
+    border-bottom: 1px solid gray;
+  
+  }
+  
+  .privacy-direct-messages{
+    margin-left: 20px;
+  }
+  
+  
+  .display-media-direct-messages-btn{
+    float: right;
+    margin-right: 70px;
+    margin-top: -45px;
+    border-radius: 20px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: #222222;
+    outline:1px solid #7d0efe;
+    color:gray;
+  }
+  
+  .settings-whitelist-paragraph{
+    margin-left: 20px;
+  }
+  
+  .settings-whitelist-profile-container{
+    border: 1px solid gray;
+    margin-top: 0px;
+    height: 100px;
+  }
+  
+  
+  .settings-whitelist-profiles{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+  };
+  
+  
+  .settings-whitelist-profile{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .whitelist-button{
+    height: 40px;
+    width: 125px;
+    text-align: center;
+    cursor: pointer;
+    background: #222222;
+    outline:1px solid #7d0efe;
+    color:gray;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+  .whitelist-button-poisiton{
+    margin-left: 90px;
+  }
+  .settings-blacklist-paragraph{
+    margin-left: 20px;
+  }
+  
+  .settings-blacklist-profile-container{
+    border: 1px solid gray;
+    margin-top: 0px;
+    height: 100px;
+  }
+  
+  
+  .settings-blacklist-profiles{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+  };
+  
+  
+  .settings-blacklist-profile{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blacklist-button{
+    height: 40px;
+    width: 125px;
+    text-align: center;
+    cursor: pointer;
+    background: #222222;
+    outline:1px solid #7d0efe;
+    color:gray;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+  .blacklist-button-poisiton{
+    margin-left: 90px;
+  }
+  
+  
+  /* this is going to be for the accessiblity page */
+  
+  .accessibility-header{
+    margin-left: 20px;
+  }
+  .accessibility-lightmode{
+    margin-left: 20px;
+    margin-top: 70px;
+    display: flex;
+  }
+  .accessibility-lightmode-toggle-button{
+    margin-left: 250px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  /* This is going to be for the notificiations sections of the settings  */
+  
+  .settings-notifications-content-border{
+    border-bottom: 1px solid gray;
+  }
+  .settings-notifications-content{
+    margin-left: 20px;
+  }
+  .settings-preferences-content-container{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px
+  }
+  .settings-notifications-preferences-content{
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  
+  /* This is going to be the langauge section */
+  .settings-language-content-border{
+    border-bottom: 1px solid gray;
+  }
+  .settings-language-content{
+    margin-left: 20px;
+  }
+  .settings-language-content-container{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px
+  }
+  .settings-language-select-langauge-content{
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  
+  
+  /* this is going to be the secuitry section */
+  .your-security-description{
+    margin-left: 20px;
+  }
+  .security-setting-content{
+    border-bottom: 1px solid gray;
+  }

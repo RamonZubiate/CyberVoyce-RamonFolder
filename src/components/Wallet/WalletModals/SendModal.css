@@ -1,0 +1,52 @@
+.wallet-sendModal, .wallet-sendModalOverlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    /* filter: blur(10px); */
+    /* background-color: white; */
+  }
+  
+  .wallet-sendModalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #222222;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: block;
+    box-shadow: 10px 10px 30px -15px black;
+  }
+  
+  .sendModalContent{
+    /* border: 1px dotted white; */
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  
+  .sendModal-amount{
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .sendModalTransaction{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #6B03FF;
+    width: 50%;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }

@@ -1,0 +1,69 @@
+.main-container{
+    /* border: 1px dotted cyan; */
+    min-width: 250px;
+    height: 100vh;
+    flex: 0.2;
+    border-right: 3px solid #424242;
+    color: white;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+  }
+  
+  .nav-icon{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    cursor: pointer;
+  }
+  
+  .option-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-left: auto;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: color 100ms;
+    transition: background-color 100ms;
+    /* border: 1px dotted white; */
+  }
+  
+  .option-btn:hover{
+    background-color: lightgrey;
+    /* background-color: #e5e4e2; */
+    color: #7d0efe;
+  }
+  
+  .option-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: black;
+  }
+  
+  .PostBtn{
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, #d747fc 1.18%, #7d0efe 100%);
+    border: 1px solid #3B444B;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Calibri';
+    margin-left: 10px;
+    transition: transform 100ms;
+    box-shadow: 0px 0px 1px 1px black;
+  }
+  

@@ -1,0 +1,63 @@
+.shortbar-mainContainer{
+    /* border: 1px dotted red; */
+    width: fit-content;
+    height: 100vh;
+    flex: 0.1;
+    border-right: 3px solid #424242;
+    color: white;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+  }
+  
+  .shortbarOption-container{
+    /* border: 1px dotted red; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+  }
+  
+  .shortbar-innerContainer{
+    /* border: 1px dotted yellow; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .shortOption-btn{
+    /* border: 1px dotted white; */
+    width: fit-content;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 100ms;
+  }
+  
+  .shortOption-icon{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .shortOption-btn:hover{
+    background-color: lightgray;
+  }
+  
+  .ShortPostBtn{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    margin: 0;
+    padding: 1px 1px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #d747fc 1.18%, #7d0efe 100%);
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Calibri';
+    transition: transform 100ms;
+    box-shadow: 0px 0px 1px 1px black;
+  }
+  

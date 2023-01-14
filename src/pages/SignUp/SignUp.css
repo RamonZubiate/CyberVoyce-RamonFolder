@@ -1,0 +1,41 @@
+.SignUpPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Calibri', sans-serif;
+  }
+  
+  .SignUp-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    /* border: 1px dotted white; */
+  }
+  
+  .signUp-el{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SignUpLogo{
+    width: 200px;
+    margin-bottom: 35px;
+  }
+  
+  .SignUpBtn{
+    font-size: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #d747fc 1.18%, #7d0efe 100%);
+    border: 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Calibri';
+  }
